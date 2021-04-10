@@ -1,0 +1,69 @@
+baseURL = "https://confident-pare-360968.netlify.app/"
+title = "How To Code"
+author = "Robert Guss"
+paginate = 5
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+# REMOVE THIS
+# themesDir = "../../"
+
+# DO NOT REMOVE THIS
+theme = "harbor"
+
+[Author]
+  name = "Robert Guss"
+
+[permalinks]
+	post = "/:slug/"
+	page = "/:filename/"
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+# [[params.nav]]
+#   identifier = "about"
+#   name = "About"
+#   icon = "fas fa-user fa-lg"
+#   url = "/about/"
+#   weight = 3
+
+[[params.nav]]
+  identifier = "tags"
+  name = "Tags"
+  icon = "fas fa-tag fa-lg"
+  url = "/tags/"
+  weight = 3
+
+[[params.nav]]
+  identifier = "search"
+  name = "Search"
+  icon = "fas fa-search fa-lg"
+  url = "/search/"
+  weight = 3
+
+[[params.social]]
+  name= "Twitter"
+  url="https://twitter.com/howtocode_io"
+  icon="fab fa-twitter"
+
+[[params.social]]
+  name= "GitHub"
+  url="https://github.com/robertguss"
+  icon="fab fa-github"
+
+[[params.social]]
+  name= "Email"
+  url="mailto:howtocode@pm.me"
+  icon="far fa-envelope"
+
+[params]
+  mainSections = ["post"]
+  # favicon = "favicon.ico"
+
+  [params.logo]
+    url = "icon.png"
+    width = 50
+    height = 50
+    alt = "Logo"
