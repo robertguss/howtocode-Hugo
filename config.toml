@@ -63,8 +63,8 @@ theme = "harbor"
   description = "Tutorials for Web Developers"
   # favicon = "favicon.ico"
 
-  [params.logo]
-    url = "icon.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+# [params.logo]
+#   url = "icon.png"
+#   width = 50
+#   height = 50
+#   alt = "Logo"
