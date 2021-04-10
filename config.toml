@@ -60,6 +60,7 @@ theme = "harbor"
 
 [params]
   mainSections = ["post"]
+  description = "Tutorials for Web Developers"
   # favicon = "favicon.ico"
 
   [params.logo]
