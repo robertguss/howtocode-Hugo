@@ -18,9 +18,10 @@
           {{ if eq .Type "list" }}
             <h1>{{ if .Data.Singular }}#{{ end }}{{ .Title }}</h1>
             {{ else }}
-            <h1>
+            <h1 style="margin-bottom: 20px;">
               {{ with $title }}{{ . }}{{ else }}<br />{{ end }}
             </h1>
+            <h3 style="margin: 0px;">{{ .Site.Params.description }}</h3>
           {{ end }}
           {{ if eq .Type "post" }}
             {{ partial "postmeta.html" . }}
