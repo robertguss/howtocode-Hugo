@@ -4,7 +4,6 @@ A port of the Statamic Starter Kit [Starter's Creek](https://github.com/statamic
 
 ## TODO's
 
-- Create tutorials page
 - Style search results
 - Style /tags page
 - Add \_extras.antlers.html squiggle svg to templates
