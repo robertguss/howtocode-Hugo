@@ -13,8 +13,8 @@ const mix = require('laravel-mix');
 mix.js('src/js/site.js', 'static/js')
 
 mix.postCss('src/css/tailwind.css', 'static/css', [
-  require('@tailwindcss/jit'),
   require('postcss-import'),
+  require('@tailwindcss/jit'),
   require('postcss-nested'),
   require('postcss-preset-env')({ stage: 0 }),
 ]);
