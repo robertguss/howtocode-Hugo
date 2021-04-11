@@ -1,17 +1,25 @@
 {{ define "main" }}
-  <div class="container" role="main">
-    <div class="posts-list">
-      {{ if .IsHome }}
-        {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-        {{ else }}
-        {{ $pag := .Paginator.Pages }}
-      {{ end }}
-
-      {{ range .Paginator.Pages }}
-        {{ partial "preview.html" . }}
-      {{ end }}
-    </div>
+<article class="max-w-6xl mx-auto px-3">
+  <header class="mx-auto max-w-xl text-center content">
+    <h1 class="mb-4">{{ .Title }}</h1>
+    <p>{{ .Site.Params.description }}</p>
+  </header>
+  
+  {{ if .IsHome }}
+    {{ $pag := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    {{ else }}
+    {{ $pag := .Paginator.Pages }}
+  {{ end }}
+  
+  <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
+    {{ range .Paginator.Pages }}
+      <div class="col-span-1">
+        {{ partial "card.html" . }}
+      </div>
+    {{ end }}
     
-    {{ partial "pagination.html" . }}
-  </div>
+  </section>
+  
+  {{ partial "pagination.html" . }}
+</article>
 {{ end }}

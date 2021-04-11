@@ -10,6 +10,14 @@
 
 {{ $title := $.Scratch.Get "title" }}
 {{ if $title }}
+
+
+<header class="mx-auto max-w-xl text-center content">
+  <h1 class="mb-4">{{ .Site.Params.title }}</h1>
+  <p>{{ .Site.Params.description }}</p>
+</header>
+
+
   <header>
     {{ partial "nav.html" . }}
     <div class="intro-header">
