@@ -1,25 +1,13 @@
 <!-- Pagination -->
 {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
-<ul class="pager">
+<section class="flex space-x-8 justify-center text-xl pt-16 font-bold">
+  
   {{ if .Paginator.HasPrev }}
-  <li class="previous">
-    {{ if $.Site.Params.uglyurls }}
-    <a href="{{ replaceRE "\\.html$" "/" .Permalink }}page/{{ .Paginator.Prev.PageNumber }}.html">&larr;
-      {{ i18n "newer" }}</a>
-    {{ else }}
-    <a href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/">&larr; {{ i18n "newer" }}</a>
-    {{ end }}
-  </li>
+    <a href="{{ .Permalink }}page/{{ .Paginator.Prev.PageNumber }}/"><span class="squiggle">&larr;</span> Newer articles</a>
   {{ end }}
-  {{ if .Paginator.HasNext }}
-  <li class="next">
-    {{ if $.Site.Params.uglyurls }}
-    <a href="{{ replaceRE "\\.html$" "/" .Permalink }}page/{{ .Paginator.Next.PageNumber }}.html">{{ i18n "older" }}
-      &rarr;</a>
-    {{ else }}
-    <a href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">{{ i18n "older" }} &rarr;</a>
-    {{ end }}
-  </li>
+  
+  {{ if .Paginator.HasNext }}    
+    <a href="{{ .Permalink }}page/{{ .Paginator.Next.PageNumber }}/">Older articles <span class="squiggle">&rarr;</span></a>
   {{ end }}
-</ul>
+</section>
 {{ end }}

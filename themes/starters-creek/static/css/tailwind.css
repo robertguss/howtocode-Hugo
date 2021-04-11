@@ -1162,6 +1162,12 @@ video {
 	gap: 1.5rem !important;
 }
 
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+	--tw-space-x-reverse: 0 !important;
+	margin-right: calc(2rem * var(--tw-space-x-reverse)) !important;
+	margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse))) !important;
+}
+
 .overflow-hidden {
 	overflow: hidden !important;
 }
@@ -1235,6 +1241,10 @@ video {
 
 .pt-12 {
 	padding-top: 3rem !important;
+}
+
+.pt-16 {
+	padding-top: 4rem !important;
 }
 
 .text-center {
