@@ -986,6 +986,18 @@ video {
   border-radius: 5px;
 }
 
+.blog-tags a {
+	font-weight: 700;
+	--tw-text-opacity: 1;
+	color: rgba(253, 45, 120, var(--tw-text-opacity));
+	text-decoration: underline;
+}
+
+.blog-tags a:hover {
+	--tw-text-opacity: 1;
+	color: rgba(18, 21, 30, var(--tw-text-opacity));
+}
+
 .container {
 	width: 100%;
 }

@@ -2,3 +2,11 @@
   border: 2px solid black;
   border-radius: 5px;
 }
+
+.blog-tags a {
+  @apply font-bold underline text-hot-pink;
+
+  &:hover {
+    @apply text-black;
+  }
+}
