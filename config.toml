@@ -1,7 +1,7 @@
 baseURL = "https://flamboyant-montalcini-4badd8.netlify.app/"
 title = "How To Code"
 author = "Robert Guss"
-paginate = 5
+paginate = 12
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
