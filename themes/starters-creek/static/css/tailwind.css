@@ -558,7 +558,6 @@ video {
 }
 
 .content h1 {
-	font-family: 'Londrina Solid', 'sans-serif';
 	font-family: var(--font-display);
 }
 
@@ -932,11 +931,6 @@ video {
 	line-height: 1.5;
 }
 
-:root {
-  --font-display: 'Londrina Solid', 'sans-serif' !important;
-  --font-body: 'Poppins', 'sans-serif' !important;
-}
-
 .personality-casual .squiggle {
         filter: url("#squiggle");
         position: relative;
@@ -1047,8 +1041,20 @@ video {
 	margin-bottom: 1rem !important;
 }
 
+.mt-6 {
+	margin-top: 1.5rem !important;
+}
+
 .mt-4 {
 	margin-top: 1rem !important;
+}
+
+.mb-8 {
+	margin-bottom: 2rem !important;
+}
+
+.mt-8 {
+	margin-top: 2rem !important;
 }
 
 .mr-8 {
@@ -1061,10 +1067,6 @@ video {
 
 .ml-4 {
 	margin-left: 1rem !important;
-}
-
-.mt-6 {
-	margin-top: 1.5rem !important;
 }
 
 .block {
@@ -1095,12 +1097,12 @@ video {
 	height: 1.5rem !important;
 }
 
-.w-6 {
-	width: 1.5rem !important;
-}
-
 .w-full {
 	width: 100% !important;
+}
+
+.w-6 {
+	width: 1.5rem !important;
 }
 
 .max-w-6xl {
@@ -1163,6 +1165,10 @@ video {
 	border-radius: .75rem !important;
 }
 
+.border-t-2 {
+	border-top-width: 2px !important;
+}
+
 .border-b-2 {
 	border-bottom-width: 2px !important;
 }
@@ -1202,6 +1208,11 @@ video {
 	padding-right: 2rem !important;
 }
 
+.py-16 {
+	padding-top: 4rem !important;
+	padding-bottom: 4rem !important;
+}
+
 .py-3 {
 	padding-top: 0.75rem !important;
 	padding-bottom: 0.75rem !important;
@@ -1217,13 +1228,20 @@ video {
 	padding-bottom: 0.25rem !important;
 }
 
+.pt-12 {
+	padding-top: 3rem !important;
+}
+
 .text-center {
 	text-align: center !important;
 }
 
 .font-body {
-	font-family: 'Poppins', 'sans-serif' !important;
 	font-family: var(--font-body) !important;
+}
+
+.font-display {
+	font-family: var(--font-display) !important;
 }
 
 .text-2xl {
@@ -1234,6 +1252,16 @@ video {
 .text-xs {
 	font-size: 0.75rem !important;
 	line-height: 1rem !important;
+}
+
+.text-4xl {
+	font-size: 2.25rem !important;
+	line-height: 2.5rem !important;
+}
+
+.text-lg {
+	font-size: 1.125rem !important;
+	line-height: 1.75rem !important;
 }
 
 .text-sm {
@@ -1250,12 +1278,20 @@ video {
 	font-weight: 700 !important;
 }
 
+.uppercase {
+	text-transform: uppercase !important;
+}
+
 .leading-normal {
 	line-height: 1.5 !important;
 }
 
 .leading-tight {
 	line-height: 1.25 !important;
+}
+
+.leading-none {
+	line-height: 1 !important;
 }
 
 .text-black {
