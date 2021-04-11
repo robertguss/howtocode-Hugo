@@ -10,7 +10,7 @@ footnoteReturnLinkContents = "^"
 # themesDir = "../../"
 
 # DO NOT REMOVE THIS
-theme = "harbor"
+theme = "starters-creek"
 
 [Author]
   name = "Robert Guss"
