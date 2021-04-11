@@ -7,6 +7,7 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 theme = "starters-creek"
+enableRobotsTXT = true
 
 [Author]
   name = "Robert Guss"
