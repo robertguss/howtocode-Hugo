@@ -1,9 +1,7 @@
 module.exports = {
   purge: {
     content: [
-      './resources/**/*.antlers.html',
-      './resources/**/*.blade.php',
-      './content/**/*.md'
+      './layouts/**/*.html'
     ],
     options: {
       whitelistPatternsChildren: [
