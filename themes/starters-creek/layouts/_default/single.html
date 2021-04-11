@@ -8,6 +8,14 @@
 
     <!-- Image -->
     <img class="rounded-xl mx-auto" style="min-width: 80%;" src="{{ .Params.hero }}" alt="">
+    
+    <!-- YouTube Video -->
+    {{ if .Params.youtube }}
+      <div class="embed-responsive aspect-ratio-16/9 mt-6 lg:mt-12">
+        <iframe width="700" height="500" class="embed-responsive-item" src="https://www.youtube.com/embed/{{ .Params.youtube }}" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+      </div>
+    {{ end }}
 
     <!-- Content -->
     <section class="max-w-3xl mx-auto py-6 lg:py-12 content">
