@@ -1,4 +1,5 @@
 {
     "/static/js/site.js": "/static/js/site.js",
+    "/static/js/search.js": "/static/js/search.js",
     "/static/css/tailwind.css": "/static/css/tailwind.css"
 }

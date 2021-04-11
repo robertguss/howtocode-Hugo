@@ -981,6 +981,11 @@ video {
 
 [x-cloak] { display: none; }
 
+#searchBox {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
 .container {
 	width: 100%;
 }
@@ -1061,12 +1066,12 @@ video {
 	margin-right: 2rem !important;
 }
 
-.ml-3 {
-	margin-left: 0.75rem !important;
-}
-
 .ml-4 {
 	margin-left: 1rem !important;
+}
+
+.ml-3 {
+	margin-left: 0.75rem !important;
 }
 
 .block {
@@ -1083,6 +1088,10 @@ video {
 
 .flex {
 	display: flex !important;
+}
+
+.inline-block {
+	display: inline-block !important;
 }
 
 .h-full {
@@ -1119,10 +1128,6 @@ video {
 
 .max-w-3xl {
 	max-width: 48rem !important;
-}
-
-.flex-1 {
-	flex: 1 1 0% !important;
 }
 
 .transform {

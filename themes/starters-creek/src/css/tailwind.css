@@ -2,6 +2,7 @@
 
 @import "content";
 @import "site";
+@import "custom";
 
 @import "tailwindcss/components";
 

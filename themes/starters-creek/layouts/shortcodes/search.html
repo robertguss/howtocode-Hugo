@@ -1,10 +1,13 @@
 <div class="searchBoxContainer">
-  <input
-    type="text"
-    id="searchBox"
-    class="searchBox"
-    placeholder="{{ i18n "search" }}"
-  />
+  <input type="text" id="searchBox" class="searchBox w-full px-2 py-1 ml-3" placeholder="Search for stuff"/>
 </div>
+
+<!-- Search Results -->
 <div id="searchResults" class="searchResults"></div>
-<script src="{{ .Site.BaseURL }}js/search.bundle.js"></script>
+
+<!-- Search JS -->
+<script src="{{ .Site.BaseURL }}js/search.js"></script>
+
+<script>
+  document.getElementById('searchBox').focus()
+</script>
