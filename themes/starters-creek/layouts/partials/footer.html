@@ -12,5 +12,7 @@
 <script src="{{ .Site.BaseURL }}js/app.js"></script>
 
 <!-- Prism JS -->
-<script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-core.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/plugins/autoloader/prism-autoloader.min.js" defer></script>
+{{ if eq .Type "post" }}
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/components/prism-core.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/plugins/autoloader/prism-autoloader.min.js" defer></script>
+{{ end }}

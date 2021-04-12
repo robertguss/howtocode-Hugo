@@ -12,7 +12,7 @@ const mix = require('laravel-mix');
 
 mix.js('src/js/site.js', 'static/js').js('src/js/search.js', 'static/js');
 
-mix.postCss('src/css/tailwind.css', 'static/css', [
+mix.postCss('src/css/main.css', 'static/css', [
   require('postcss-import'),
   require('@tailwindcss/jit'),
   require('postcss-nested'),
