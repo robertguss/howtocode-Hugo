@@ -41,10 +41,12 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/tailwind.css"/>
 
 <!-- Prism CSS -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/themes/prism-tomorrow.css"
-/>
+{{ if eq .Type "post" }}
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/themes/prism-tomorrow.css"
+  />
+{{ end }}
 
 <style>
   :root{
