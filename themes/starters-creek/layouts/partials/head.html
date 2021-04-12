@@ -38,7 +38,7 @@
 {{ end }}
 
 <!-- Custom CSS -->
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/tailwind.css"/>
+<link rel="preload" href="{{ .Site.BaseURL }}css/tailwind.css" as="style" />
 
 <!-- Prism CSS -->
 {{ if eq .Type "post" }}
@@ -55,7 +55,7 @@
   }
 </style>
 
-<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&family=Poppins:ital,wght@0,400;0,600;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&family=Poppins:ital,wght@0,400;0,600;1,400;1,700&display=swap" rel="stylesheet">
 
 {{ partial "schema.html" . }}
 
