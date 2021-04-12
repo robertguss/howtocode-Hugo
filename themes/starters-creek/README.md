@@ -4,10 +4,6 @@ A port of the Statamic Starter Kit [Starter's Creek](https://github.com/statamic
 
 ## TODO's
 
-- Style search results
-- Style /tags page
-- Add \_extras.antlers.html squiggle svg to templates
-- Hide dates from posts?
 - Add SEO Structured JSON
 - Add redirects from tutorials to tag pages
 - netlify custom 404 redirect:
