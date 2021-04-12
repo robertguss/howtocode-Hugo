@@ -4,5 +4,4 @@ A port of the Statamic Starter Kit [Starter's Creek](https://github.com/statamic
 
 ## TODO's
 
-- Add SEO Structured JSON
 - Fix nav on mobile
