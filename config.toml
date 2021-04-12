@@ -21,3 +21,8 @@ enableRobotsTXT = true
 
 [params]
   description = "Tutorials for Web Developers"
+  author = "Robert Guss"
+  logo = "images/HowToCode_OpenGraph_1200_630.png"
+  header = "How to Code"
+  twitter = "howtocode_io"
+  github = "robertguss"
