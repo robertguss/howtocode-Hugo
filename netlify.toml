@@ -1,2 +1,26 @@
 [build.environment]
   HUGO_VERSION = "0.60.1"
+
+[[redirects]]
+  from = "/tutorials/understanding-the-jamstack"
+  to = "/tags/understanding-the-jamstack"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/tutorials/adonis-fundamentals"
+  to = "/tags/adonis-fundamentals"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/tutorials/go-basics"
+  to = "/tags/go-basics"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/tutorials/tailwind-css-travel-site"
+  to = "/tags/tailwind-css-travel-site"
+  status = 301
+  force = true
