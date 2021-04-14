@@ -40,8 +40,9 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
 
-<!-- Prism CSS -->
+<!-- Prism CSS & Canonical Link -->
 {{ if eq .Type "post" }}
+  <link rel="canonical" href="{{ .Site.BaseURL }}{{ .Params.slug }}" />
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/themes/prism-tomorrow.css"
