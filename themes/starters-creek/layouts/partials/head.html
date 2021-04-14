@@ -43,10 +43,8 @@
 <!-- Prism CSS & Canonical Link -->
 {{ if eq .Type "post" }}
   <link rel="canonical" href="{{ .Site.BaseURL }}{{ .Params.slug }}" />
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/prismjs@1.22.0/themes/prism-tomorrow.css"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.css" />
 {{ end }}
 
 {{ partial "google-fonts.html" . }}
