@@ -24,3 +24,15 @@
   to = "/tags/tailwind-css-travel-site"
   status = 301
   force = true
+  
+[[redirects]]
+  from = "/?page=2"
+  to = "/page/2"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://howtocode.io/?page=2"
+  to = "/page/2"
+  status = 301
+  force = true
