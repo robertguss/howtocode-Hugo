@@ -30,6 +30,18 @@
   <section class="max-w-3xl mx-auto py-6 lg:py-12 content">
     {{ .Content }}
   </section>
+  
+  <!-- Edit this page of GitHub -->
+  <section class="content flex justify-center">
+    {{ if .IsPage }}
+      <a 
+        href="https://github.com/robertguss/howtocode/edit/master/content/{{ .File.Path }}" 
+        target="_blank"
+      >
+        Edit this page on GitHub
+      </a>
+    {{ end }}
+  </section>
 
   <!-- Email Signup -->
   {{ if ne .RelPermalink "/search/" }}
