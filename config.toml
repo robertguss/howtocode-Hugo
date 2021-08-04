@@ -9,6 +9,9 @@ footnoteReturnLinkContents = "^"
 theme = "starters-creek"
 enableRobotsTXT = true
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [Author]
   name = "Robert Guss"
 
