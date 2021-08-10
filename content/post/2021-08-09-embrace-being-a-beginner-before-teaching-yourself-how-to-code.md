@@ -1,7 +1,7 @@
 +++
 title = "How to manage your expectations while teaching yourself how to code"
 date = "2021-08-10"
-slug = "embrace-being-a-beginner-before-teaching-yourself-how-to-code"
+slug = "how-to-manage-your-expectations-while-teaching-yourself-how-to-code"
 description = "Why embracing being a beginner is the most important lesson for you to learn before teaching yourself how to code."
 hero = "/images/writing-for-devs/cockpit.jpg"
 tags = [
