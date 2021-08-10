@@ -14,9 +14,9 @@ mix.js('src/js/search.js', 'static/js');
 
 mix.postCss('src/css/main.css', 'static/css', [
   require('postcss-import'),
-  require('@tailwindcss/jit'),
-  require('postcss-nested'),
-  require('postcss-preset-env')({ stage: 0 }),
+    require('tailwindcss'),
+    require('postcss-nested'),
+    require('postcss-preset-env')({stage: 0})
 ]);
 
 if (mix.inProduction()) {
