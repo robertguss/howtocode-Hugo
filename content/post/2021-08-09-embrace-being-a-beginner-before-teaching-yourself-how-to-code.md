@@ -1,7 +1,6 @@
 +++
 title = "How to manage your expectations while teaching yourself how to code"
-date = "2021-08-09"
-draft = true
+date = "2021-08-10"
 slug = "embrace-being-a-beginner-before-teaching-yourself-how-to-code"
 description = "Why embracing being a beginner is the most important lesson for you to learn before teaching youreself how to code."
 hero = "/images/writing-for-devs/cockpit.jpg"
@@ -16,11 +15,11 @@ Programming is hard. Don't let anyone tell you otherwise. This profession is not
 
 ## You will be terrible at first and that's ok
 
-When you are first learning something, you typically are quite terrible at it. In fact, most of us struggle for quite some time when first learning a new skill, language, subject, instrument, how to cook, etc. Most of us will expect to not be very good at first, but know we will improve over time.
+When you are first learning something, you typically are quite terrible at it. In fact, most of us struggle for quite some time when first learning a new skill, language, subject, instrument, etc. However, for some strange reason, people teaching themselves how to code completely miss this.
 
-However, for some strange reason, people teaching themselves how to code completely miss this. I am not sure why this is, by I have seen it time and time again.
+When you are first learning how to code, you really have no idea what you are doing. Am I doing this right? Should I take this tutorial or that one? Should I take both? Which one should I take first? Should I go to a boot camp? How do I find a mentor? How much do I need to know before I get my first job? The questions are endless, and that's expected, because you don't know what you're doing.
 
-When you are first learning how to code, you really have no idea what you are doing. Am I doing this right? Should I take this tutorial or that one? Should I take both? Which one should I take first? Should I go to a boot camp? How do I find a mentor? How long will this take before I get my first job? The questions are endless, and that's expected, because you don't know anything yet.
+Embrace not knowing.
 
 You must learn to embrace being a beginner when teaching yourself how to code. You are going to get stuck a lot! You are going to make tons of mistakes, you will do so many things "wrong." Here is the reality of it all though...
 
@@ -28,15 +27,17 @@ You are supposed to get stuck, make mistakes and do the wrong things over and ov
 
 Embrace being a beginner.
 
-When you are learning to program, you are exposing yourself to many new concepts that at first seem completely foreign to you, and that's because they are. If these concepts were not foreign then you wouldn't be learning anything, you would already know them.
+When you are learning to program, you are exposing yourself to many new concepts that at first seem completely foreign to you, and that's because they are. If these concepts were not foreign then you wouldn't be learning anything.
 
 ## Managing Expectations
 
 One of the most valuable lessons I learned while on this journey, and frankly before I even started, was knowing how to manage my expectations. You see prior to teaching myself how to code I taught myself how to play guitar at the age of 14. I didn't have any lessons, all I had was a guitar, the internet and an incredible desire to play. I practiced for hours and hours each and every day, and it took me about one year to become a "bad" guitar player.
 
-Let that sink it for a moment. One year of practicing virtually every single day for several hours made me a bad guitar player. I could have just given up right then and there and said this is not for me, clearly I don't have any talent for this. Maybe I did, maybe I didn't, maybe I still don't, who knows. The point, however, is that I never gave up. I kept practicing.
+Let that sink it for a moment. One year of practicing virtually every single day for several hours made me a bad guitar player. I could have just given up right then and there and said this is not for me, clearly I don't have any talent for this. Maybe I did, maybe I didn't, maybe I still don't, who knows.
 
-All of that practice finally paid off when I was accepted into Berklee College of Music at the age of 24. I was accepted as a bass player and managed to teach myself that instrument too, without any private lessons as well. I couldn't read music, I didn't know what scales were or key signatures for that matter, but I could play. I played countless shows in various bands and practiced for countless hours over the past 10 years.
+The point, however, is that I never gave up. I kept practicing.
+
+All of that practice finally paid off when I was accepted to Berklee College of Music at the age of 24. I was accepted as a bass player and managed to teach myself that instrument too, without any private lessons as well. I couldn't read music, I didn't know what scales were or key signatures for that matter, but I could play. I played countless shows in various bands and practiced for countless hours over those 10 years.
 
 I embraced being a beginner because I knew that at some point I no longer would be.
 
@@ -54,7 +55,9 @@ You only need to know enough to get the job done, you don't have to know it all.
 
 ## You are always learning
 
-Another misconception many people have when teaching themselves to code is that they have to have it all figured out before they can apply for their first job. I started applying to jobs after five months of teaching myself and I got my first junior developer job. I had no idea what I was doing, however, I knew I would grow into the role over time. You need to realize this too, and the sooner the better.
+Another misconception many people have when teaching themselves to code is that they have to have it all figured out before they can apply for their first job. I got my first junior developer job after five months of teaching myself how to code. I had no idea what I was doing, however, I knew I would grow into the role over time.
+
+You need to realize this too, and the sooner the better.
 
 You are always learning in this field and you always will be. Things change all the time and that is what makes it fun. Sure we get paid a lot of money to do this, but you will be absolutely miserable if you are not comfortable with being put into challenging situations and asked to solve problems you have never seen before on a daily basis.
 
