@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+const mix = require("laravel-mix");
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -10,15 +10,15 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('src/js/search.js', 'static/js');
+mix.js("src/js/search.js", "static/js");
 
-mix.postCss('src/css/main.css', 'static/css', [
-  require('postcss-import'),
-    require('tailwindcss'),
-    require('postcss-nested'),
-    require('postcss-preset-env')({stage: 0})
+mix.postCss("src/css/main.css", "static/css", [
+  require("postcss-import"),
+  require("tailwindcss"),
+  require("postcss-nested"),
+  require("postcss-preset-env")({ stage: 0 }),
 ]);
 
 if (mix.inProduction()) {
-   mix.version();
+  mix.version();
 }
