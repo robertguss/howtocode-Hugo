@@ -96,3 +96,85 @@ iex(11)> list
 ```
 
 ### Append
+
+You can append a new element onto a list using the `++` operator.
+
+```elixir
+iex(1)> list = [5.0, "Hello, World", :false]
+[5.0, "Hello, World", false]
+iex(2)> list ++ [14]
+[5.0, "Hello, World", false, 14]
+```
+
+## List Subtraction
+
+You can remove elements from a list using the `--` operator.
+
+```elixir
+iex(1)> list = [5.0, "Hello, World", :false]
+iex(3)> list -- [false]
+[5.0, "Hello, World"]
+```
+
+List subtraction also uses "strict comparison" to match the values.
+
+```elixir
+iex(5)> list = [5.0, "Hello, World", :false]
+[5.0, "Hello, World", false]
+iex(6)> list -- [5]
+[5.0, "Hello, World", false]
+```
+
+This does not work, because we are trying to subtract the interger `5` where our list has a `float` of `5.0`.
+
+```elixir
+iex(7)> list = [5.0, "Hello, World", :false]
+[5.0, "Hello, World", false]
+iex(8)> list -- [5.0]
+["Hello, World", false]
+```
+
+## Charlists
+
+One thing to keep in mind regarding lists, is that Elixir is built ontop of Erlang. Erlang has something known as a Charlist which to use looks like a list of integers, but Erlang sees those numbers are representations of ASCII characters.
+
+```elixir
+iex(13)> [72, 101, 108, 108, 111, 44, 32, 87, 111, 114, 108, 100]
+'Hello, World'
+```
+
+If we inspect `'hello'` you will see that Erlang sees it as a Charlist.
+
+```elixir
+iex(12)> i 'Hello, World'
+Term
+  'Hello, World'
+Data type
+  List
+Description
+  This is a list of integers that is printed as a sequence of characters
+  delimited by single quotes because all the integers in it represent printable
+  ASCII characters. Conventionally, a list of Unicode code points is known as a
+  charlist and a list of ASCII characters is a subset of it.
+Raw representation
+  [72, 101, 108, 108, 111, 44, 32, 87, 111, 114, 108, 100]
+Reference modules
+  List
+Implemented protocols
+  Collectable, Enumerable, IEx.Info, Inspect, List.Chars, String.Chars
+```
+
+## Charlists vs Strings
+
+It is important to remember that single quotes `''` and double quotes `""` are not the same thing in Elixir. Single quotes are `charlists` while double quotes are `strings`.
+
+```elixir
+iex(14)> 'Hello, World' == "Hello, World"
+false
+```
+
+## Sources
+
+- [Elixir Docs - Linked Lists](https://elixir-lang.org/getting-started/basic-types.html#linked-lists)
+- [Elixir School - Lists](https://elixirschool.com/en/lessons/basics/collections/#lists)
+- [Elixir & Phoenix for Beginners](https://www.knowthen.com/elixir-and-phoenix-for-beginners)
