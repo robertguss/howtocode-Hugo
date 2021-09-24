@@ -28,7 +28,9 @@ iex(4)> list[1]
     (elixir 1.12.3) lib/access.ex:310: Access.get/3
 ```
 
-The reason this does not work is because of the underlying "link" or connection/relationshop each element within the list has to one another. In a list, each element contains a pointer to the next element in the list. Elements within Lists are not typically stored right next to each other in memory, like they are in arrays. This has some performance implications.
+The reason this does not work is because of the underlying "link" or connection/relationship each element within the list has to one another. In a list, each element contains a pointer to the next element in the list. Elements within Lists are not typically stored right next to each other in memory, like they are in arrays.
+
+This has some performance implications.
 
 If we want to determine the length of a list, we have to traverse through each and every element to find out how many there are in the list, because they are linked together. After the first element in list, we need to see where its pointer is pointing to, then find that elements pointer to the next element and so on. This means the longer the list is, the more expensive the operation is to calculate its length.
 
@@ -67,7 +69,7 @@ Ok, so why is this important? Understanding the head & tail of lists is helpful 
 
 Often times you will need to add a new element to an already existing list. Prepending the element onto a list, meaning the element is added to the beginning of the list is a cheap operation. The reason why it is cheap, is because all that is required is knowing where the first element of the list is and adding a new element in front of it.
 
-This is not the case then appending to a list. When you need to add an element as the last element of a list, the entire list has to be traversed to find the last element first and then the new element can be appended onto the end. Since all of the elements in a list are linked together this is the only way to find out where the last element is.
+This is not the case then appending to a list. When you need to add an element to the end of a list, the entire list has to be traversed to find the last element first, and then the new element can be added after it. Since all of the elements in a list are linked together this is the only way to find out where the last element is.
 
 ### Prepend
 
@@ -80,7 +82,7 @@ iex(10)> [14 | list]
 [14, 5.0, "Hello, World", false]
 ```
 
-The way this works, is that we are creating a new list using brackets `[]` and placing new element `14` folowed by a pipe `|` and then the list we want to append onto `list`.
+The way this works, is that we are creating a new list using brackets `[]` and placing new element `14` folowed by a pipe `|` and then the list we want to append onto.
 
 `[14 | list]` basically says create a new list where `14` is the first element and the remaning elements are whatever is stored inside of the `list` variable.
 
