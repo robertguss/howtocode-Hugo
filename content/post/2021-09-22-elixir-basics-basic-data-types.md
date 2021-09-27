@@ -4,9 +4,7 @@ date = "2021-09-22"
 slug = "elixir-basics-basic-data-types"
 description = "In this article, we are going to learn the basic data types in Elixir."
 hero = "/images/elixir-basics/cover-purple.png"
-tags = [
-    "elixir",
-]
+tags = ["Elixir Basics"]
 +++
 
 ## Integers
